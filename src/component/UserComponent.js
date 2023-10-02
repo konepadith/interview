@@ -12,7 +12,7 @@ function UserComponent(){
         <>
         {user.map((element)=>{
             return (<ul>
-            <li key={element.id}>user id: {element.userId}  user title: {element.title}</li>
+            <li key={element.id}>user id: {element.id}  user title: {element.title}</li>
            
             </ul>)
         })}
